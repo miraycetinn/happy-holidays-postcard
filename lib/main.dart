@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.indigo[400],
+        backgroundColor: Color(0xFFD7E0FF), //#D7E0FF
         appBar: AppBar(
           backgroundColor: Colors.indigo[800],
           title: Center(
@@ -13,11 +13,7 @@ void main() {
             ),
           ),
         ),
-        body: Center(
-          child: Image.network(
-            'https://i.haberglobal.com.tr/storage/haber/2019/11/13/selimiye-cami-nin-dolunayla-aksam-bulasmasi-2_1573607318.jpg',
-          ),
-        ),
+        body: Center(child: Image.asset('images/mutlu_bayramlar.jpg')),
       ),
     ),
   );
